@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0;
+}
+
+:root {
+    --fontprincipal: 'Montserrat', sans-serif;
+    --fontsecundaria:  'Open Sans', sans-serif;
+    --corfundo: #F2E3D5;
+    --cortext: #024959;
+    --cordestaque: #3CA6A6;
+}
+
+body {
+    background: var(--corfundo);
+    height: 100vh;
+    width: 100vh;
+    
+}
+
+.container {
+    background: var(--cordestaque);
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    top: 35px;
+    right: 30%;
+    border-top-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.411)
+}
+
+ h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fontprincipal);
+    margin-top: 10px;
+    letter-spacing: .2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: var(--fontprincipal);
+    font-weight: lighter;
+    text-align: center;
+   
+   
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 120px;
+    height: 200px;
+    margin-left: 190px;
+    font-size: 20px;
+    font-family: var(--fontsecundaria);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+form {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding-top: 100px;
+    text-align: center;
+    
+}
+
+section > p {
+    text-align: center;
+    font-family: var(--fontsecundaria);
+    font-weight: bold;
+    font-size: 1.2em;
+   
+}
+
+label {
+    text-transform: uppercase;
+    font-family: var(--fontsecundaria);
+}
+
+button {
+    padding: 20px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    border-radius: 3px;
+    margin-top: 20px;
+    
+
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #024959;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin-left: 500px;
+}
